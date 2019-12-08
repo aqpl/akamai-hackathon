@@ -1,0 +1,11 @@
+CREATE TABLE `listings` (
+  `name` varchar(100) NOT NULL,
+  `host_name` varchar(100) NOT NULL,
+  `neighbourhood_group` varchar(100) NOT NULL,
+  `neighbourhood` varchar(100) NOT NULL,
+  `latitude` varchar(100) NOT NULL,
+  `longitude` varchar(100) NOT NULL,
+  `room_type` varchar(100) NOT NULL,
+  `price` int(11) NOT NULL,
+  PRIMARY KEY (name, host_name),
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
